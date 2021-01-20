@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-size: cover;
+    background-image: url("port.jpeg");
+    scrollbar-color: orange;
+}
+
+::selection{
+    color: crimson;
+    background-color: yellow;
+}
+
+::-moz-selection{
+    color: crimson;
+    background-color: yellow;
+}
+
+
+
+.About button{
+    cursor: pointer;
+    font-size: 25px;
+    color: #ff7300;
+    border-radius: 15px;
+    margin-top: 20px;
+    background: none;
+    padding: 10px;
+    border-width: 5px;
+    border-color: #d19526;
+    font-weight: 600;
+}
+
+
+.content{
+    margin-top: 50px;
+    /* background-size: cover;
+    background-image: url("port.jpeg"); */
+    height: 90vh;
+}
+
+
+.About{
+max-width: 310px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 136px;
+    padding-top: 80px;
+}
+
+.About span{
+font-size: 50px;
+    font-weight: 900;
+color: #deffbf;
+text-decoration: double;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.About p{
+    font-size: 23px;
+    padding-top: 25px;
+    font-weight: 550;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: none; */
+
+}
+
+.slider{
+    background-color: #579182;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro{
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+}
+
+.intro-text .small-text{
+font-size: 35px;
+font-family: 'Comfortaa', cursive;
+
+}
+
+.intro-text .big-text{
+font-size: 100px;
+font-family: 'Comfortaa', cursive;
+font-family: 'Indie Flower', cursive;
+
+}
+
+.intro-text{
+    margin-top: 260px;
+    margin-left: 285px;
+}
+
+nav{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-image: url("free-vector-elements-and-accessories.jpg"); */
+    background-size: cover;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+margin-top: 10px;
+    
+}
+
+.nav-bar{
+
+    height: 75px;
+    background-color: #000000;
+    background-size: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav span{
+    font-family: 'Texturina', serif;
+    font-size: 33px;
+font-weight: 600;
+margin-top: 5px;
+padding-right: 330px;
+color: #ad4949;
+}
+
+
+nav{
+    max-width: 1570px;
+}
+
+nav a{
+text-decoration: none;
+color: whitesmoke;
+padding-right: 60px;
+    padding-left: 15px;
+}
+
+/* .hide span{
+    transform: translateY(100%);
+    display: inline-block;
+} */
+
+.hide{
+    background-color: black;
+    max-width: 545px;
+     overflow: hidden;
+}
+
+.text{
+    display: inline-block;
+    transform: translateY(100%);
+}
+.hide span {
+   color: rgb(255, 64, 64);
+}
+
+.big-text {
+   transform: translateY(100%);
+
+}
+
+.small-text{
+   transform: translateY(100%);
+
+}
